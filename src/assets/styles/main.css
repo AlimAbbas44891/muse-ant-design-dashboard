@@ -969,7 +969,7 @@ button.ant-btn.bell strong {
   background: #1890ff;
   color: #fff;
   border-radius: 0.5rem;
-  margin-left: auto;
+  margin-left: 8px;
   line-height: 55px;
 }
 
