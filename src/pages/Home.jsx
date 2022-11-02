@@ -420,12 +420,12 @@ function Home() {
                   <tbody>
                     {list.map((d, index) => (
                       <tr key={index}>
-                        <td>
+                        <td className={s.companyTitle}>
                           <h6>
                             <img
                               src={d.img}
                               alt=""
-                              className="avatar-sm mr-10"
+                              className={`avatar-sm mr-10`}
                             />{" "}
                             {d.Title}
                           </h6>

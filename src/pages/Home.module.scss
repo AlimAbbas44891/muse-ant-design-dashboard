@@ -1,3 +1,12 @@
 .titleColor {
   color: #fff !important;
 }
+.companyTitle {
+  h6 {
+    color: #fff;
+  }
+  &:hover {
+    color: #000 !important;
+    background-color: unset;
+  }
+}

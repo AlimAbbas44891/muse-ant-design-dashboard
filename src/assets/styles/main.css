@@ -2884,8 +2884,9 @@ section.ant-layout.ant-layout-has-sider.layout-dashboard.layout-profile
   direction: ltr;
 }
 .ant-list-box table tr:hover td {
-  background: #fafafa;
-}
+  background: #8080804a;
+  opacity: 0.9;
+} 
 .layout-dashboard-rtl .icon-box {
   margin-left: 0px;
   margin-right: auto;
