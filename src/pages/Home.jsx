@@ -45,6 +45,7 @@ import team2 from "../assets/images/team-2.jpg";
 import team3 from "../assets/images/team-3.jpg";
 import team4 from "../assets/images/team-4.jpg";
 import card from "../assets/images/info-card-1.jpg";
+import s from "./Home.module.scss";
 
 function Home() {
   const { Title, Text } = Typography;
@@ -359,7 +360,7 @@ function Home() {
                   <Row align="middle" gutter={[24, 0]}>
                     <Col xs={18}>
                       <span>{c.today}</span>
-                      <Title level={3}>
+                      <Title level={3} className={s.titleColor}>
                         {c.title} <small className={c.bnb}>{c.persent}</small>
                       </Title>
                     </Col>
