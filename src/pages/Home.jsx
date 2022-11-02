@@ -467,7 +467,7 @@ function Home() {
 
                 <Timeline
                   pending="Recording..."
-                  className="timelinelist"
+                  className={`timelinelist ${s.recording}`}
                   reverse={reverse}
                 >
                   {timelineList.map((t, index) => (

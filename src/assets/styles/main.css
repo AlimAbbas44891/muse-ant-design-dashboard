@@ -998,6 +998,7 @@ button.ant-btn.bell strong {
 .chart-vistior h5 {
   margin: 0px;
   font-weight: 700;
+  color: #fff;
 }
 .ant-typography.lastweek {
   color: #8c8c8c;
@@ -1007,16 +1008,18 @@ button.ant-btn.bell strong {
 .chart-visitor-count h4 {
   margin: 0px;
   font-weight: 700;
+  color: #fff;
 }
 
 .chart-visitor-count span {
-  color: rgba(0, 0, 0, 0.65);
+  color: #fff;
   font-weight: 600;
 }
 
 .linechart h5 {
   font-weight: 700;
   margin: 0px;
+  color: #fff;
 }
 .linechart {
   display: flex;
@@ -1207,6 +1210,7 @@ span.blue {
 .timeline-box h5 {
   margin-bottom: 0px;
   font-weight: 700;
+  color: #fff;
 }
 .timelinelist h5 {
   font-size: 14px;
