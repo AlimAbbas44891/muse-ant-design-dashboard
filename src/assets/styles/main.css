@@ -1504,7 +1504,7 @@ ul.ant-menu.ant-menu-root.ant-menu-inline.ant-menu-light.left-nav li:active {
 }
 .ant-card-body {
   padding: 16px;
-  border: .5px solid #3f3f3f;
+  border: 0.5px solid #3f3f3f;
   border-radius: 10px;
 }
 
@@ -3033,7 +3033,13 @@ aside.ant-layout-sider.ant-layout-sider-light.sider-primary.ant-layout-sider-pri
 }
 
 .ant-btn-dashed {
-  color: rgba(0, 0, 0, 0.65);
+  color: #fff;
+  background: #1890ff;
+  border: unset;
+}
+.ant-btn-dashed:hover {
+  color: #fff;
+  background: #40a9ff;
 }
 button.ant-btn.ant-btn-dashed.ant-full-box svg {
   width: 16px;
