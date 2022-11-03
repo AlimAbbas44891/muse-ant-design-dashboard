@@ -1743,7 +1743,7 @@ ul.ant-menu.ant-menu-root.ant-menu-inline.ant-menu-light.left-nav
 }
 
 body {
-  overflow: visible !important;
+  overflow-x: hidden !important;
   width: 100% !important;
 }
 
@@ -2890,7 +2890,7 @@ section.ant-layout.ant-layout-has-sider.layout-dashboard.layout-profile
 .ant-list-box table tr:hover td {
   background: #8080804a;
   opacity: 0.9;
-} 
+}
 .layout-dashboard-rtl .icon-box {
   margin-left: 0px;
   margin-right: auto;
