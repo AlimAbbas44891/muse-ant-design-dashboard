@@ -1745,6 +1745,7 @@ ul.ant-menu.ant-menu-root.ant-menu-inline.ant-menu-light.left-nav
 body {
   overflow-x: hidden !important;
   width: 100% !important;
+  padding: 1.875rem;
 }
 
 .card-info-2 .ant-card-body {
