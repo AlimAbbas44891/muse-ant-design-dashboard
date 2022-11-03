@@ -1504,6 +1504,8 @@ ul.ant-menu.ant-menu-root.ant-menu-inline.ant-menu-light.left-nav li:active {
 }
 .ant-card-body {
   padding: 16px;
+  border: .5px solid #3f3f3f;
+  border-radius: 10px;
 }
 
 ul.ant-menu.ant-menu-root.ant-menu-inline.ant-menu-light.left-nav li svg path {
@@ -1716,9 +1718,9 @@ ul.ant-menu.ant-menu-root.ant-menu-inline.ant-menu-light.left-nav
 .ant-table-thead > tr > th {
   white-space: nowrap;
 }
-.h-full {
+/* .h-full {
   height: 100%;
-}
+} */
 @media (min-width: 1200px) {
   .ant-col.col-img img {
     height: 196px;
